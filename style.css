@@ -177,3 +177,67 @@ a {
   height: 100vh;
   margin-top: 130px;
 }
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  text-algin: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.animals-section {
+  display: block;
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #45567d;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.animals-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+}
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.animal-tile {
+  background: #303841;
+  color: #f0f0f0;
+}
+
+.animal-image {
+  height: calc(100% - 5rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
