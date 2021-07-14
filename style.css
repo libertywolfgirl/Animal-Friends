@@ -138,7 +138,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #be3144;
+  background: #008000;
   font-size: 1.8rem;
   font-eight: 400;
 }
@@ -150,6 +150,7 @@ body {
 
 .nav-list a {
   display: block;
+  color: var(--color-text-main);
   font-size: 2.2rem;
   padding: 2rem;
   text-decoration: none;
@@ -189,7 +190,7 @@ h1 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: red;
+  color: #32CD32;
   margin: 0;
   padding: 0;
 }
@@ -197,8 +198,8 @@ h1 {
 .animals-section {
   display: block;
   text-align: center;
-  padding: 10rem 2rem;
-  background: #45567d;
+  padding: 4rem 2rem;
+  background: #48D1CC;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
@@ -211,19 +212,18 @@ h1 {
 
 .animals-grid {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 600px 600px;
   justify-items: center;
   align-items: center;
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .animal-tile {
   background: #303841;
-  color: #f0f0f0;
 }
 
 .animal-image {
