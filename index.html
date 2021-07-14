@@ -57,29 +57,47 @@
     <div class="wrapper">
       <div class="content" role="main">
         <!-- This is the start of content for our page -->
-        <h1 class="title">Hello World!</h1>
-
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <!-- Instructions on using this project -->
-        <div class="instructions">
-          <h2>
-            Using this project
-          </h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out README.md in the editor for
-            more info and next steps you can take!
-          </p>
-          <!-- ADD BUTTON HERE -->
-          
-          <!-- Once you've added the button from the readme, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
+        <nav id="navbar" class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#welcome-section">About</a>
+            </li>
+            <li>
+              <a href="#mammals">Mammals</a>
+            </li>
+            <li>
+              <a href="#birds">Birds</a>
+            </li>
+            <li>
+              <a href="#dragons">Dragons</a>
+            </li>
+          </ul>
+        </nav>
+        <section id="welcome-section" class="welcome-section">
+          <h1>Welcome</h1>
+          <p>please meet my animal friends</p>
+        </section>
+        <section id="projects" class="projects-section">
+          <h2 class="projects-section-header">These are some of my projects</h2>
+          <div class="projects-grid">
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project-tile">
+              <img class="project-image" src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+              <p class="project-title">Random Quote Machine</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project-tile">
+              <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+              <p class="project-title">JavaScript Calculator</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project-tile">
+              <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="project">
+              <p class="project-title">Map Data Across the Globe</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project-tile">
+              <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="project">
+              <p class="project-title">Tic Tac Toe Game</p>
+            </a>
+          </div>
+        </section>
       </div>
     </div>
     <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
