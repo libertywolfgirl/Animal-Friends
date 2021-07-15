@@ -228,3 +228,13 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+#mammals {
+  background: #48D1CC;
+  color: var(--color-text-main);
+}
+
+#birds {
+  background: #4B0082;
+  color: #48D1CC;
+}
