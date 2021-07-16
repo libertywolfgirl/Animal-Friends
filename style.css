@@ -130,7 +130,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #008000;
+  background: #006400;
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -178,7 +178,7 @@ h1 {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: #32CD32;
+  color: #663399;
   margin: 0;
   padding: 10px;
 }
@@ -230,16 +230,16 @@ p {
 }
 
 #mammals {
-  background: #48D1CC;
-  color: #8FBC8F;
+  background: #AFEEEE;
+  color: #20B2AA;
 }
 
 #birds {
   background: #4B0082;
-  color: #48D1CC;
+  color: #AFEEEE;
 }
 
 #dragons {
-  background: #8FBC8F;
+  background: #20B2AA;
   color: #4B0082;
 }
