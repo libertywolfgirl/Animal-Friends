@@ -231,10 +231,15 @@ p {
 
 #mammals {
   background: #48D1CC;
-  color: var(--color-text-main);
+  color: #8FBC8F;
 }
 
 #birds {
   background: #4B0082;
   color: #48D1CC;
+}
+
+#dragons {
+  background: #8FBC8F;
+  color: #4B0082;
 }
