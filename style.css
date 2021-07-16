@@ -20,6 +20,33 @@ to this section's matching END comment to see page-specific styles.
   --color-text-main: #F0FFFF;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 80%;
+  scroll-behavior: smooth;
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
@@ -49,6 +76,16 @@ body {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
 }
 
 ul {
@@ -110,6 +147,12 @@ h1 {
   margin: 0 auto 6rem auto;
 }
 
+@media (max-width: 28.75em) {
+  .animals-section-header {
+    font-size: 4rem;
+  }
+}
+
 .animals-grid {
   display: grid;
   grid-template-columns: 600px 600px;
@@ -120,6 +163,16 @@ h1 {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 4rem;
+}
+
+@media (max-width: 30.625em) {
+  .animals-section {
+    padding: 6rem 1rem;
+  }
+
+  .animals-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .animal-tile {
