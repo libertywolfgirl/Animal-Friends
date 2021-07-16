@@ -135,6 +135,10 @@ body {
   font-weight: 500;
 }
 
+.title {
+  font-size: 36px;
+}
+
 .nav-list {
   display: flex;
   margin-right: 2rem;
