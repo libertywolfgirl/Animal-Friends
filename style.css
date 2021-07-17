@@ -87,6 +87,12 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 28.75em) {
+  a {
+    font-size: 80%;
+  }
+}
+
 .welcome-section {
   display: flex;
   flex-direction: column;
