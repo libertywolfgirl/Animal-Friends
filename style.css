@@ -128,7 +128,7 @@ h1 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
-  width: 1500px;
+  width: 1200px;
 }
 
 .animals-section-header {
@@ -144,7 +144,7 @@ h1 {
 
 .animals-grid {
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 50% 45%;
   justify-items: center;
   align-items: center;
   grid-gap: 4rem;
